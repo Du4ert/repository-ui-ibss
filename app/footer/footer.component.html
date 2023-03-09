@@ -1,0 +1,78 @@
+<footer class="text-lg-start">
+    <div *ngIf="showTopFooter" class="top-footer">
+      <!-- Grid container -->
+      <div class=" container py-4">
+        <!--Grid row-->
+        <div class="row mb-2">
+          <h3 class="mx-auto text-muted">{{ "footer.top.registered" | translate }}</h3>
+        </div>
+        <div class="row mb-2">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6  border-right">
+            <h4 class="text-uppercase">ROAR</h4>
+            <a routerLink="http://roar.eprints.org/13271/" class="">Registry of Open Access Repositories</a>
+          </div>
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6  border-right">
+            <h5 class="text-uppercase">Open Archives Initiative</h5>
+                <p class="text-muted">OAI-PHM Data Provider Registery</p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-md-0">
+            <h5 class="text-uppercase">OpenDOAR</h5>
+            <a routerLink="http://v2.sherpa.ac.uk/id/repository/4068">Directory of Open Access Repositories</a>
+          </div>
+          <!--Grid column-->
+        </div>
+        <div class="row">
+          <div class="col-md-8 mx-auto">{{ "footer.top.license" | translate }}</div>
+        </div>
+        <!--Grid row-->
+      </div>
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white">
+      <div class="content-container">
+        <p>
+          ©2017–2023 by <a href="https://marine-research.org/" class="text-white">marine-research.org</a> development team
+        </p>
+        <p>
+          info@marine-research.org
+        </p>
+        <p>
+          <a href="https://ibss-ras.ru/" class="text-white">A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS</a>
+        </p>
+        <p class="m-0">
+          <a class="text-white"
+             href="http://www.dspace.org/">{{ 'footer.link.dspace' | translate}}</a>
+          {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
+          <a class="text-white"
+             href="https://www.lyrasis.org/">{{ 'footer.link.lyrasis' | translate}}</a>
+        </p>
+        <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">
+          <li>
+            <a class="text-white" href="javascript:void(0);"
+               (click)="showCookieSettings()">{{ 'footer.link.cookies' | translate}}</a>
+          </li>
+          <li *ngIf="showPrivacyPolicy">
+            <a class="text-white"
+               routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>
+          </li>
+          <li *ngIf="showEndUserAgreement">
+            <a class="text-white"
+               routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' | translate}}</a>
+          </li>
+          <li>
+            <a class="text-white"
+               routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  

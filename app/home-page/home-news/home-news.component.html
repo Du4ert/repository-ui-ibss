@@ -1,0 +1,23 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container homepage">
+    <div class="homepage-header">
+      <img src="assets/custom/images/logo-ibss.png" [attr.alt]="'affiliation.name' | translate" class="homepage-img" />
+      <h2 class="mb-1">{{ 'news-page.custom.header' | translate }}:</h2>
+      <h2>{{ 'affiliation.name' | translate }}</h2>
+    </div>
+    <div class="homepage-body">
+      <p> {{ 'news-page.custom.text' | translate}}</p>
+      <div class="license">
+        <img src="assets/custom/images/license_min.png" alt="
+        All of the materials are CC BY-SA 3.0 licensed">
+        <p>{{ 'news-page.custom.license' | translate}}</p>
+      </div>
+    </div>
+    <div class="homepage-footer">
+      <span class="browse-text">{{'browse.text' | translate}}:</span>
+        <a class="browse-link" routerLink="/browse/dateissued">{{'browse.comcol.by.dateissued' | translate}}</a>
+        <a class="browse-link" routerLink="/browse/author">{{ 'browse.comcol.by.author' | translate}}</a>
+        <a class="browse-link" routerLink="/browse/subject">{{ 'browse.comcol.by.subject' | translate}}</a>
+    </div>
+  </div>
+</div>
