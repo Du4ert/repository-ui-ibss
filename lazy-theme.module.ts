@@ -61,7 +61,19 @@ import { SharedBrowseByModule } from '../../app/shared/browse-by/shared-browse-b
 import { ItemVersionsModule } from '../../app/item-page/versions/item-versions.module';
 import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 
+//! IBSS specific
+// import { ComcolPageHandleComponent } from '../../app/shared/comcol/comcol-page-handle/comcol-page-handle.component'; 
+// import { ComcolPageBrowseByComponent } from '../../app/shared/comcol/comcol-page-browse-by/comcol-page-browse-by.component';
+// import {  CommunityPageSubCommunityListComponent} from '../../app/community-page/sub-community-list/community-page-sub-community-list.component';
+// import {  CommunityPageSubCollectionListComponent} from '../../app/community-page/sub-collection-list/community-page-sub-collection-list.component';
+// import {  EditItemTemplatePageComponent } from '../../app/collection-page/edit-item-template-page/edit-item-template-page.component';
+
 const DECLARATIONS = [
+  // ComcolPageHandleComponent,
+  // ComcolPageBrowseByComponent,
+  // CommunityPageSubCommunityListComponent,
+  // CommunityPageSubCollectionListComponent,
+  // EditItemTemplatePageComponent
 ];
 
 @NgModule({
@@ -119,6 +131,9 @@ const DECLARATIONS = [
     ComcolModule,
   ],
   declarations: DECLARATIONS,
+  exports: [
+    // CommunityPageSubCollectionListComponent // ! IBSS specific
+  ]
 })
 
 /**
