@@ -44,7 +44,9 @@ nav.navbar {
 }
 
 a.navbar-brand img {
-  max-height: var(--ds-header-logo-height);
+  height: var(--ds-header-logo-height);
+  width: auto;
+  // max-height: var(--ds-header-logo-height);
 }
 
 .navbar-nav {
