@@ -12,6 +12,10 @@ import { ResultsBackButtonModule } from '../../app/shared/results-back-button/re
 //
 // Ibss special
 import { FooterComponent } from './app/footer/footer.component';
+import { PrivacyComponent } from './app/info/privacy/privacy.component';
+import { PrivacyContentComponent } from './app/info/privacy/privacy-content/privacy-content.component';
+import { EndUserAgreementComponent } from './app/info/end-user-agreement/end-user-agreement.component';
+import { EndUserAgreementContentComponent } from './app/info/end-user-agreement/end-user-agreement-content/end-user-agreement-content.component';
 // import { CommunityPageComponent } from './app/community-page/community-page.component';
 // import { CollectionPageComponent } from './app/collection-page/collection-page.component';
 
@@ -28,6 +32,10 @@ const DECLARATIONS = [
   HeaderNavbarWrapperComponent,
   NavbarComponent,
   FooterComponent,
+  PrivacyComponent,
+  EndUserAgreementComponent,
+  EndUserAgreementContentComponent,
+  PrivacyContentComponent,
   // CommunityPageComponent,
   // CollectionPageComponent,
 ];
