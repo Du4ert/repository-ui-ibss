@@ -37,21 +37,18 @@
     <!-- Copyright -->
     <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white">
       <div class="content-container">
-        <p>
-          ©2017–2023 by <a routerLink="/" class="text-white">marine-research.org</a> development team
-        </p>
-        <p>
-          info@marine-research.org
-        </p>
-        <p>
-          <a href="https://ibss-ras.ru/" class="text-white">A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS</a>
-        </p>
+
         <p class="m-0">
-          <a class="text-white"
-             href="http://www.dspace.org/">{{ 'footer.link.dspace' | translate}}</a>
           {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
           <a class="text-white"
-             href="https://www.lyrasis.org/">{{ 'footer.link.lyrasis' | translate}}</a>
+             href="http://www.dspace.org/">{{ 'footer.link.dspace' | translate}}</a>
+          <!-- <a class="text-white" href="https://www.lyrasis.org/">{{ 'footer.link.lyrasis' | translate}}</a> -->
+        </p>
+        <p class="m-0">
+          info@marine-research.org
+        </p>
+        <p class="m-0">
+          <a href="https://ibss-ras.ru/" class="text-white">{{ 'footer.link.institution' | translate }}</a>
         </p>
         <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">
           <li>
