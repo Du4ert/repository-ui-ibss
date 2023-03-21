@@ -2,26 +2,32 @@
 //! IBSS theme specific
   "affiliation.name": "Институт биологии южных морей имени А. О. Ковалевского РАН",
 
+  // "home-news.affiliation.name": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
+  "home-news.affiliation.name": "Института биологии южных морей имени А. О. Ковалевского РАН",
+
   "news-page.ibss.header": "Добро пожаловать на сайт открытого репозитория",
   
 
-  "news-page.ibss.text": "Репозиторий открытого доступа ИнБЮМ - это цифровой сервис, который собирает, сохраняет и свободно распространяет материалы, созданные в Институте биологии южных морей. Репозиторий содержит материалы, публикации, тезисы, диссертации, карты и т. д.",
+  "news-page.ibss.text": "Репозиторий открытого доступа ФИЦ ИнБЮМ ― это цифровой сервис, который собирает, сохраняет и свободно распространяет материалы, созданные сотрудниками института. Репозиторий содержит статьи, тезисы, диссертации, карты, презентации и т. д.",
 
-  "news-page.ibss.license": "Все материалы предоставляются по лицензии CC BY-SA 3.0.",
+  "news-page.ibss.license": "Все материалы предоставляются по лицензии CC BY-NC-SA 4.0.",
 
-  "browse.text": "Просматривать содержимое хранилища",
+  "browse.text": "Просмотреть содержимое репозитория",
 
 
-    "footer.top.registered" : "Индексируется:",
+  "footer.top.registered" : "Индексируется:",
 
-    "footer.top.license" : "За исключением случаев, когда указано иное, контент на этом сайте лицензирован по международной лицензии Creative Commons Attribution-Sharealike 3.0.",
+  "footer.top.license" : "За исключением случаев, когда указано иное, контент на этом сайте лицензирован по международной лицензии Creative Commons Attribution-Sharealike 4.0.",
 
       // "footer.link.dspace": "DSpace software",
   //TODO Change your univer
-  "footer.link.dspace": "от DSpace software и команды разработчиков marine-research.ru",
+  "footer.link.dspace": "DSpace software и команда разработчиков marine-research.ru",
 
   // "footer.link.institution": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
   "footer.link.institution": "ФГБУН ФИЦ «Институт биологии южных морей имени А. О. Ковалевского РАН»",
+
+  // "footer.copyright": "copyright © 2002-{{ year }}",
+  "footer.copyright": "© 2017–{{ year }}",
 
 //! IBSS theme specific ends
 
@@ -1095,7 +1101,7 @@
   "browse.startsWith.type_date": "Введите дату (год-месяц):",
 
   // "browse.startsWith.type_text": "Or enter first few letters:",
-  "browse.startsWith.type_text": "Введите первые символы",
+  "browse.startsWith.type_text": "Введите первые буквы",
 
   // "browse.title": "Browsing {{ collection }} by {{ field }} {{ value }}",
   "browse.title": "Поиск {{ collection }} по {{ field }} {{ value }}",
@@ -2093,10 +2099,6 @@
 
   // "item.truncatable-part.show-less": "Collapse",
   "item.truncatable-part.show-less": "Свернуть",
-
-
-  // "footer.copyright": "copyright © 2002-{{ year }}",
-  "footer.copyright": "© 2017-{{ year }}",
   
 
   // "footer.link.lyrasis": "LYRASIS",
@@ -2109,7 +2111,7 @@
    "footer.link.privacy-policy": "Политика конфиденциальности",
 
   // "footer.link.end-user-agreement":"End User Agreement",
-   "footer.link.end-user-agreement":"Пользовательское Соглашение",
+   "footer.link.end-user-agreement":"Пользовательское соглашение",
 
 
   // "footer.link.feedback": "Send Feedback",
