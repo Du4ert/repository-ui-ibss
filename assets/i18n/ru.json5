@@ -14,13 +14,11 @@
 
   "browse.text": "Просмотреть содержимое репозитория",
 
-
   "footer.top.registered" : "Индексируется:",
 
   "footer.top.license" : "За исключением случаев, когда указано иное, контент на этом сайте лицензирован по международной лицензии Creative Commons Attribution-Sharealike 4.0.",
 
-      // "footer.link.dspace": "DSpace software",
-  //TODO Change your univer
+  // "footer.link.dspace": "DSpace software",
   "footer.link.dspace": "DSpace software и команда разработчиков marine-research.ru",
 
   // "footer.link.institution": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
@@ -802,6 +800,9 @@
   // "admin.search.item.delete": "Delete",
   "admin.search.item.delete": "Удалить",
 
+  // "item.edit.return": "Back",
+  "item.edit.return": "Назад",
+
   // "admin.search.item.edit": "Edit",
   "admin.search.item.edit": "Редактировать",
 
@@ -1162,11 +1163,14 @@
 
   // "collection.edit.tabs.mapper.head": "Item Mapper",
   
-  "collection.edit.tabs.mapper.head": "Карта материала",
+  "collection.edit.tabs.mapper.head": "Привязанные материалы",
 
   // "collection.edit.tabs.item-mapper.title": "Collection Edit - Item Mapper",
   
-  "collection.edit.tabs.item-mapper.title": "Редактирование коллекции - Карта материала",
+  "collection.edit.tabs.item-mapper.title": "Редактирование коллекции - Привязанные материалы",
+
+  // "collection.edit.item-mapper.search-form.placeholder": "Search items...",
+  "collection.edit.item-mapper.search-form.placeholder": "Поиск материалов...",
 
   // "collection.edit.item-mapper.cancel": "Cancel",
   "collection.edit.item-mapper.cancel": "Отменить",
@@ -1181,7 +1185,7 @@
   "collection.edit.item-mapper.description": "Это инструмент для прикрепления материалов, который позволяет администраторам коллекции прикреплять материалы из других коллекций к этой коллекции. Вы можете искать материалы из других коллекций и отобразить их или просмотреть список отображаемых материалов.",
 
   // "collection.edit.item-mapper.head": " - Map Items from Other Collections",
-  "collection.edit.item-mapper.head": "Карта материала - карта материалов из другой коллекции",
+  "collection.edit.item-mapper.head": "Привязанные материалы - связанные материалы из другой коллекции",
 
   // "collection.edit.item-mapper.no-search": "Please enter a query to search",
   "collection.edit.item-mapper.no-search": "Введите поисковый запрос",
@@ -1916,7 +1920,6 @@
 
 
 
-
   // "curation.form.task-select.label": "Task:",
     "curation.form.task-select.label": "Задание:",
 
@@ -2392,6 +2395,69 @@
   // "item.edit.authorizations.title": "Edit item's Policies",
    "item.edit.authorizations.title": "Редактировать политики материала",
 
+   
+  // "item.edit.identifiers.doi.status.UNKNOWN": "Unknown",
+  "item.edit.identifiers.doi.status.UNKNOWN": "Unknown",
+
+  // "item.edit.identifiers.doi.status.TO_BE_REGISTERED": "Queued for registration",
+  "item.edit.identifiers.doi.status.TO_BE_REGISTERED": "В очереди на регистрацию",
+
+  // "item.edit.identifiers.doi.status.TO_BE_RESERVED": "Queued for reservation",
+  "item.edit.identifiers.doi.status.TO_BE_RESERVED": "В очереди на бронирование",
+
+  // "item.edit.identifiers.doi.status.IS_REGISTERED": "Registered",
+  "item.edit.identifiers.doi.status.IS_REGISTERED": "Зарегистрирован",
+
+  // "item.edit.identifiers.doi.status.IS_RESERVED": "Reserved",
+  "item.edit.identifiers.doi.status.IS_RESERVED": "Забронирован",
+
+  // "item.edit.identifiers.doi.status.UPDATE_RESERVED": "Reserved (update queued)",
+  "item.edit.identifiers.doi.status.UPDATE_RESERVED": "Забронирован (обновление в очереди)",
+
+  // "item.edit.identifiers.doi.status.UPDATE_REGISTERED": "Registered (update queued)",
+  "item.edit.identifiers.doi.status.UPDATE_REGISTERED": "Зарегестрирован (обновление в очереди)",
+
+  // "item.edit.identifiers.doi.status.UPDATE_BEFORE_REGISTRATION": "Queued for update and registration",
+  "item.edit.identifiers.doi.status.UPDATE_BEFORE_REGISTRATION": "В очереди на обновление и регистрацию",
+
+
+  // "item.edit.identifiers.doi.status.TO_BE_DELETED": "Queued for deletion",
+  "item.edit.identifiers.doi.status.TO_BE_DELETED": "В очереди за удаление",
+
+  // "item.edit.identifiers.doi.status.DELETED": "Deleted",
+  "item.edit.identifiers.doi.status.DELETED": "Удалён",
+
+  // "item.edit.identifiers.doi.status.PENDING": "Pending (not registered)",
+  "item.edit.identifiers.doi.status.PENDING": "Ожидание (не зарегистрирован)",
+
+  "item.edit.identifiers.doi.status.MINTED": "Minted (не зарегистрирован)",
+
+  "item.edit.tabs.status.buttons.register-doi.label": "Зарегистрировать новый или ожидайте DOI",
+
+  // "item.edit.tabs.status.buttons.register-doi.button": "Register DOI...",
+  "item.edit.tabs.status.buttons.register-doi.button": "Зарегистрировать DOI...",
+
+  // "item.edit.register-doi.header": "Register a new or pending DOI",
+  "item.edit.register-doi.header": "Зарегистрировать новый или ожидайте DOI",
+
+  // "item.edit.register-doi.description": "Review any pending identifiers and item metadata below and click Confirm to proceed with DOI registration, or Cancel to back out",
+  "item.edit.register-doi.description": "Просмотрите любые ожидающие идентификаторы и метаданные элемента ниже и нажмите «Подтвердить», чтобы продолжить регистрацию в DOI, или нажмите «Отменить», чтобы отступить",
+
+  // "item.edit.register-doi.confirm": "Confirm",
+  "item.edit.register-doi.confirm": "Подтвердить",
+
+  // "item.edit.register-doi.cancel": "Cancel",
+  "item.edit.register-doi.cancel": "Отменить",
+
+  // "item.edit.register-doi.success": "DOI queued for registration successfully.",
+  "item.edit.register-doi.success": "DOI поставлен в очередь на регистрацию.",
+
+  // "item.edit.register-doi.error": "Error registering DOI",
+  "item.edit.register-doi.error": "Ошибка регистрации DOI",
+
+  // "item.edit.register-doi.to-update": "The following DOI has already been minted and will be queued for registration online",
+  "item.edit.register-doi.to-update": "Следующий DOI уже был minted и поставлен в очередь на регистрацию в Интернете",
+
 
 
   // "item.badge.private": "Private",
@@ -2560,6 +2626,9 @@
   // "item.edit.tabs.item-mapper.title": "Item Edit - Collection Mapper",
     "item.edit.tabs.item-mapper.title": "Редактировать материал - карта коллекции",
 
+  // "item.edit.item-mapper.search-form.placeholder": "Search collections...",
+  "item.edit.item-mapper.search-form.placeholder": "Поиск коллекций...",
+
   // "item.edit.item-mapper.buttons.add": "Map item to selected collections",
   "item.edit.item-mapper.buttons.add": "Прикрепить материал в выбранную коллекцию",
 
@@ -2573,7 +2642,7 @@
   "item.edit.item-mapper.description": "Это инструмент карты материалов, который позволяет администраторам связывать этот материал с другими коллекциями. Вы можете найти коллекцию привязать материал к ней их или просмотреть список коллекций, которые связаны с материалом.",
 
   // "item.edit.item-mapper.head": "Item Mapper - Map Item to Collections",
-  "item.edit.item-mapper.head": "Карта материала - привязывание материала к коллекциям",
+  "item.edit.item-mapper.head": "Привязанные материалы - привязывание материала к коллекциям",
 
   // "item.edit.item-mapper.item": "Item: \"<b>{{name}}</b>\"",
   "item.edit.item-mapper.item": "Материал: \"<b>{{name}}</b>\"",
@@ -2863,6 +2932,9 @@
   // "item.edit.tabs.relationships.title": "Редагування материала - зв'язки",
   "item.edit.tabs.relationships.title": "Редактирование материала - связи",
 
+  // "item.edit.tabs.status.buttons.unauthorized": "You're not authorized to perform this action",
+  "item.edit.tabs.status.buttons.unauthorized": "Вы не уполномочены выполнять это действие",
+
   // "item.edit.tabs.status.buttons.authorizations.button": "Authorizations...",
   "item.edit.tabs.status.buttons.authorizations.button": "Авторизация...",
 
@@ -2968,12 +3040,18 @@
   "item.edit.withdraw.success": "Материал быв успешно удалён",
 
 
+  // "item.page.version.create": "Create new version",
+  "item.page.version.create": "Создать новую версию",
+
+  // "item.page.version.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
+  "item.page.version.hasDraft": "Новая версия не может быть создана, потому что в истории версии есть материал «В работе»",
+
 
   // "item.listelement.badge": "Item",
     "item.listelement.badge": "Материал",
 
   // "item.page.description": "Description",
-    "item.page.description": "Описание",
+    "item.page.description": "Abstract (description)",
 
   // "item.page.edit": "Edit this item",
     "item.page.edit": "Редактировать этот материал",
@@ -3166,6 +3244,114 @@
 
   // "item.version.notice": "This is not the latest version of this item. The latest version can be found <a href='{{destination}}'>here</a>.",
   "item.version.notice": "Это не последняя версия материала. Последнюю версию можно найти <a href='{{destination}}'>ТУТ</a>.",
+
+//TODO
+  // "item.version.history.selected.alert": "You are currently viewing version {{version}} of the item.",
+  "item.version.history.selected.alert": "В настоящее время вы просматриваете {{version}} версию материала.",
+
+  // "item.version.history.table.workspaceItem": "Workspace item",
+  "item.version.history.table.workspaceItem": "Рабочая среда",
+
+  // "item.version.history.table.workflowItem": "Workflow item",
+  "item.version.history.table.workflowItem": "В работе",
+
+  // "item.version.history.table.actions": "Action",
+  "item.version.history.table.actions": "Действие",
+
+  // "item.version.history.table.action.editWorkspaceItem": "Edit workspace item",
+  "item.version.history.table.action.editWorkspaceItem": "Редактировать workspace материала",
+
+  // "item.version.history.table.action.editSummary": "Edit summary",
+  "item.version.history.table.action.editSummary": "Редактировать описание",
+
+  // "item.version.history.table.action.saveSummary": "Save summary edits",
+  "item.version.history.table.action.saveSummary": "Сохранить правки описания",
+
+  // "item.version.history.table.action.discardSummary": "Discard summary edits",
+  "item.version.history.table.action.discardSummary": "Отменить правки описания",
+
+  // "item.version.history.table.action.newVersion": "Create new version from this one",
+  "item.version.history.table.action.newVersion": "Создать новую версию, основанную на текущей",
+
+  // "item.version.history.table.action.deleteVersion": "Delete version",
+  "item.version.history.table.action.deleteVersion": "Удалить версию",
+
+  // "item.version.history.table.action.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
+  "item.version.history.table.action.hasDraft": "Новая версия не может быть создана, потому что в истории версии есть материал «В работе»",
+
+  // "item.version.create.modal.header": "New version",
+  "item.version.create.modal.header": "Новая версия",
+
+  // "item.version.create.modal.text": "Create a new version for this item",
+  "item.version.create.modal.text": "Создайте новую версию для этого материала",
+
+  // "item.version.create.modal.text.startingFrom": "starting from version {{version}}",
+  "item.version.create.modal.text.startingFrom": "основываясь на версии {{version}}",
+
+  // "item.version.create.modal.button.confirm": "Create",
+  "item.version.create.modal.button.confirm": "Создать",
+
+  // "item.version.create.modal.button.confirm.tooltip": "Create new version",
+  "item.version.create.modal.button.confirm.tooltip": "Создать новую версию",
+
+  // "item.version.create.modal.button.cancel": "Cancel",
+  "item.version.create.modal.button.cancel": "Отменить",
+
+  // "item.version.create.modal.button.cancel.tooltip": "Do not create new version",
+  "item.version.create.modal.button.cancel.tooltip": "Не создавать новую версию",
+
+  // "item.version.create.modal.form.summary.label": "Summary",
+  "item.version.create.modal.form.summary.label": "Описание",
+
+  // "item.version.create.modal.form.summary.placeholder": "Insert the summary for the new version",
+  "item.version.create.modal.form.summary.placeholder": "Введите описание новой версии",
+
+  // "item.version.create.modal.submitted.header": "Creating new version...",
+  "item.version.create.modal.submitted.header": "Создание новой версии...",
+
+  // "item.version.create.modal.submitted.text": "The new version is being created. This may take some time if the item has a lot of relationships.",
+  "item.version.create.modal.submitted.text": "Создается новая версия. Это может занять некоторое время, если у материала много привязок.",
+
+  // "item.version.create.notification.success": "New version has been created with version number {{version}}",
+  "item.version.create.notification.success": "Новая версия была создана с номером {{version}}",
+
+  // "item.version.create.notification.failure": "New version has not been created",
+  "item.version.create.notification.failure": "Новая версия не была создана",
+
+  // "item.version.create.notification.inProgress": "A new version cannot be created because there is an inprogress submission in the version history",
+  "item.version.create.notification.inProgress": "Новая версия не может быть создана, потому что в истории версии есть материал «В работе»",
+
+  // "item.version.delete.modal.header": "Delete version",
+  "item.version.delete.modal.header": "Удалить версию",
+
+  // "item.version.delete.modal.text": "Do you want to delete version {{version}}?",
+  "item.version.delete.modal.text": "Вы уверены, хотите удалить версию {{version}}?",
+
+  // "item.version.delete.modal.button.confirm": "Delete",
+  "item.version.delete.modal.button.confirm": "Удалить",
+
+  // "item.version.delete.modal.button.confirm.tooltip": "Delete this version",
+  "item.version.delete.modal.button.confirm.tooltip": "Удалить текущую версию",
+
+  // "item.version.delete.modal.button.cancel": "Cancel",
+  "item.version.delete.modal.button.cancel": "Отменить",
+
+  // "item.version.delete.modal.button.cancel.tooltip": "Do not delete this version",
+  "item.version.delete.modal.button.cancel.tooltip": "Не удалять текущую версию",
+
+  // "item.version.delete.notification.success": "Version number {{version}} has been deleted",
+  "item.version.delete.notification.success": "Версия номер {{version}} была удалена",
+
+  // "item.version.delete.notification.failure": "Version number {{version}} has not been deleted",
+  "item.version.delete.notification.failure": "Версия номер {{version}} не была удалена",
+
+  // "item.version.edit.notification.success": "The summary of version number {{version}} has been changed",
+  "item.version.edit.notification.success": "Описание версии номер {{version}} было изменено",
+
+  // "item.version.edit.notification.failure": "The summary of version number {{version}} has not been changed",
+  "item.version.edit.notification.failure": "писание версии номер {{version}} не было изменено",
+
+
 
 
 
@@ -3866,6 +4052,123 @@
   "workspace.search.results.head": "Ваши материалы",
 
 
+
+
+
+  // "subscriptions.title": "Subscriptions",
+  "subscriptions.title": "Подписки",
+
+  // "subscriptions.item": "Subscriptions for items",
+  "subscriptions.item": "Подписки на материалы",
+
+  // "subscriptions.collection": "Subscriptions for collections",
+  "subscriptions.collection": "Подписки на коллекции",
+
+  // "subscriptions.community": "Subscriptions for communities",
+  "subscriptions.community": "Подписки на разделы",
+
+  // "subscriptions.subscription_type": "Subscription type",
+  "subscriptions.subscription_type": "Тип подписки",
+
+  // "subscriptions.frequency": "Subscription frequency",
+  "subscriptions.frequency": "Частота уведомлений",
+
+  // "subscriptions.frequency.D": "Daily",
+  "subscriptions.frequency.D": "Каждый день",
+
+  // "subscriptions.frequency.M": "Monthly",
+  "subscriptions.frequency.M": "Каждый месяц",
+
+  // "subscriptions.frequency.W": "Weekly",
+  "subscriptions.frequency.W": "Каждую неделю",
+
+  // "subscriptions.tooltip": "Subscribe",
+  "subscriptions.tooltip": "Подписаться",
+
+  // "subscriptions.modal.title": "Subscriptions",
+  "subscriptions.modal.title": "Подписки",
+
+  // "subscriptions.modal.type-frequency": "Type and frequency",
+  "subscriptions.modal.type-frequency": "Тип и частота уведомлений",
+
+  // "subscriptions.modal.close": "Close",
+  "subscriptions.modal.close": "Закрыть",
+
+  // "subscriptions.modal.delete-info": "To remove this subscription, please visit the \"Subscriptions\" page under your user profile",
+  "subscriptions.modal.delete-info": "Чтобы удалить эту подписку, посетите страницу \"Подписки\" под вашим аккаунтом",
+
+  // "subscriptions.modal.new-subscription-form.type.content": "Content",
+  "subscriptions.modal.new-subscription-form.type.content": "Содержание",
+
+  // "subscriptions.modal.new-subscription-form.frequency.D": "Daily",
+  "subscriptions.modal.new-subscription-form.frequency.D": "Каждый день",
+
+  // "subscriptions.modal.new-subscription-form.frequency.W": "Weekly",
+  "subscriptions.modal.new-subscription-form.frequency.W": "Каждую неделю",
+
+  // "subscriptions.modal.new-subscription-form.frequency.M": "Monthly",
+  "subscriptions.modal.new-subscription-form.frequency.M": "Каждый месяц",
+
+  // "subscriptions.modal.new-subscription-form.submit": "Submit",
+  "subscriptions.modal.new-subscription-form.submit": "Подписаться",
+
+  // "subscriptions.modal.new-subscription-form.processing": "Processing...",
+  "subscriptions.modal.new-subscription-form.processing": "Обработка...",
+
+  // "subscriptions.modal.create.success": "Subscribed to {{ type }} successfully.",
+  "subscriptions.modal.create.success": "Подписка на {{ type }} прошла успешно.",
+
+  // "subscriptions.modal.delete.success": "Subscription deleted successfully",
+  "subscriptions.modal.delete.success": "Подписка удалена",
+
+  // "subscriptions.modal.update.success": "Subscription to {{ type }} updated successfully",
+  "subscriptions.modal.update.success": "Подписка на {{ type }} обновлена",
+
+  // "subscriptions.modal.create.error": "An error occurs during the subscription creation",
+  "subscriptions.modal.create.error": "Возникла ошибка при создании подписки",
+
+  // "subscriptions.modal.delete.error": "An error occurs during the subscription delete",
+  "subscriptions.modal.delete.error": "Возникла ошибка при удалении подписки",
+
+  // "subscriptions.modal.update.error": "An error occurs during the subscription update",
+  "subscriptions.modal.update.error": "Возникла ошибка при обновлении подписки",
+
+  // "subscriptions.table.dso": "Subject",
+  "subscriptions.table.dso": "Предмет",
+
+  // "subscriptions.table.subscription_type": "Subscription Type",
+  "subscriptions.table.subscription_type": "Тип подписки",
+
+  // "subscriptions.table.subscription_frequency": "Subscription Frequency",
+  "subscriptions.table.subscription_frequency": "Частота уведомлений",
+
+  // "subscriptions.table.action": "Action",
+  "subscriptions.table.action": "Действие",
+
+  // "subscriptions.table.edit": "Edit",
+  "subscriptions.table.edit": "Редактировать",
+
+  // "subscriptions.table.delete": "Delete",
+  "subscriptions.table.delete": "Удалить",
+
+  // "subscriptions.table.not-available": "Not available",
+  "subscriptions.table.not-available": "Недоступно",
+
+  // "subscriptions.table.not-available-message": "The subscribed item has been deleted, or you don't currently have the permission to view it",
+  "subscriptions.table.not-available-message": "Материал подписки удалён, или в настоящее время у вас нет разрешения на его просмотр ",
+
+  // "subscriptions.table.empty.message": "You do not have any subscriptions at this time. To subscribe to email updates for a Community or Collection, use the subscription button on the object's page.",
+  "subscriptions.table.empty.message": "В настоящее время у вас нет подписок. Чтобы подписаться на обновления по электронной почте на раздел или коллекцию, используйте кнопку подписки на странице объекта.",
+
+
+
+
+
+
+
+
+  // "nav.subscriptions": "Subscriptions",
+  "nav.subscriptions": "Подписки",
 
   // "nav.browse.header": "All of DSpace",
   "nav.browse.header": "Поиск по критериям",
@@ -5188,6 +5491,12 @@
   // "submission.general.save-later": "Save for later",
   "submission.general.save-later": "Сохранить на потом",
 
+  // "submission.general.info.saved": "Saved",
+  "submission.general.info.saved": "Сохранён",
+
+  // "submission.general.discard.submit": "Discard",
+  "submission.general.discard.submit": "Отозвать",
+
 
   // "submission.import-external.page.title": "Import metadata from an external source",
  
@@ -5987,6 +6296,17 @@
   // "workflowAdmin.search.results.head": "Administer Workflow",
   "workflowAdmin.search.results.head": "Рабочая среда администратора",
 
+  // "idle-modal.header": "Session will expire soon",
+  "idle-modal.header": "Срок сессии скоро истечёт",
+
+  // "idle-modal.info": "For security reasons, user sessions expire after {{ timeToExpire }} minutes of inactivity. Your session will expire soon. Would you like to extend it or log out?",
+  "idle-modal.info": "По соображениям безопасности пользовательские сеансы истекают после {{ timeToExpire }} минут(ы) бездействия. Ваша сессия истекает в ближайшее время. Хотели бы вы продлить её или выйти из системы?",
+
+  // "idle-modal.log-out": "Log out",
+  "idle-modal.log-out": "Выйти",
+
+  // "idle-modal.extend-session": "Extend session",
+  "idle-modal.extend-session": "Продлить сессию",
 
 
   // "workflow-item.delete.notification.success.title": "Deleted",

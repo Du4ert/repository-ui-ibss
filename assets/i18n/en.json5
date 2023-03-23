@@ -1,10 +1,10 @@
 {
 //! IBSS theme specific
-  "news-page.ibss.header": "Welcome to the open repository",
-
   "affiliation.name": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
 
   "home-news.affiliation.name": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
+
+  "news-page.ibss.header": "Welcome to the open repository:",
   
   "news-page.ibss.text": "IBSS open access repository is a digital service that collects, preserves, and freely distributes materials created within the Institute of Biology of the Southern Seas community. Repository contains documents, publications, theses, dissertations, maps, etc. authored or co-authored by IBSS researches, PhD students, and staff.",
 
@@ -16,23 +16,22 @@
 
   "footer.top.license" : "Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International license.",
 
-  "news-page.custom.header": "Welcome to the open repository site",
+  "news-page.custom.header": "Welcome to the open repository site:",
 
   "news-page.custom.text": "IBSS open access repository is a digital service that collects, preserves, and freely distributes materials created within the Institute of Biology of the Southern Seas community. Repository contains documents, publications, theses, dissertations, maps etc. authored or co-authored by IBSS researches, PhD students, and staff.",
 
   "news-page.custom.license": "All of the materials are CC BY-NC-SA 4.0 licensed",
 
   // DSpace default: "All of DSpace"
-  "menu.section.browse_global": "Browse DSpace",
+  "menu.section.browse_global": "Browse repository",
 
   // DSpace default: "DSpace Angular :: "
-  "repository.title.prefix": "DSpace :: ",
+  "repository.title.prefix": "IBSS repository :: ",
 
   // "footer.copyright": "copyright © 2002-{{ year }}",
   "footer.copyright": "© 2017–{{ year }}",
 
   // "footer.link.dspace": "DSpace software",
-  //TODO Change your univer
   "footer.link.dspace": "by DSpace software and marine-research.ru development team",
 
   "footer.link.institution": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
@@ -1449,7 +1448,7 @@
 
   "dso-selector.set-scope.community.head": "Select a search scope",
 
-  "dso-selector.set-scope.community.button": "Search all of DSpace",
+  "dso-selector.set-scope.community.button": "Search all of repository",
 
   "dso-selector.set-scope.community.or-divider": "or",
 
@@ -1793,7 +1792,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Communities in repository",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -2761,7 +2760,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "Browse DSpace",
+  "menu.section.browse_global": "Browse repository",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -2977,7 +2976,7 @@
 
   "mydspace.view-btn": "View",
 
-  "nav.browse.header": "All of DSpace",
+  "nav.browse.header": "All of repository",
 
   "nav.community-browse.header": "By Community",
 
@@ -3349,7 +3348,7 @@
 
   "register-page.registration.header": "New user registration",
 
-  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to repository.",
 
   "register-page.registration.email": "Email Address *",
 
@@ -3431,7 +3430,7 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title.prefix": "DSpace :: ",
+  "repository.title.prefix": "Repository :: ",
 
   "repository.title.prefixDSpace": "DSpace Angular ::",
 
@@ -3765,7 +3764,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of DSpace",
+  "search.form.scope.all": "All of repository",
 
   "search.results.head": "Search Results",
 
@@ -4661,7 +4660,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  title: "DSpace",
+  title: "Repository",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
