@@ -1,45 +1,4 @@
 {
-//! IBSS theme specific
-  "affiliation.name": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
-
-  "home-news.affiliation.name": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
-
-  "news-page.ibss.header": "Welcome to the open repository:",
-  
-  "news-page.ibss.text": "IBSS open access repository is a digital service that collects, preserves, and freely distributes materials created within the Institute of Biology of the Southern Seas community. Repository contains documents, publications, theses, dissertations, maps, etc. authored or co-authored by IBSS researches, PhD students, and staff.",
-
-  "news-page.ibss.license": "All the materials are CC BY-NC-SA 4.0 licensed",
-
-  "browse.text": "Browse repository contents",
-
-  "footer.top.registered" : "Registered in:",
-
-  "footer.top.license" : "Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International license.",
-
-  "news-page.custom.header": "Welcome to the open repository site:",
-
-  "news-page.custom.text": "IBSS open access repository is a digital service that collects, preserves, and freely distributes materials created within the Institute of Biology of the Southern Seas community. Repository contains documents, publications, theses, dissertations, maps etc. authored or co-authored by IBSS researches, PhD students, and staff.",
-
-  "news-page.custom.license": "All of the materials are CC BY-NC-SA 4.0 licensed",
-
-  // DSpace default: "All of DSpace"
-  "menu.section.browse_global": "Browse repository",
-
-  // DSpace default: "DSpace Angular :: "
-  "repository.title.prefix": "IBSS repository :: ",
-
-  // "footer.copyright": "copyright © 2002-{{ year }}",
-  "footer.copyright": "© 2017–{{ year }}",
-
-  // "footer.link.dspace": "DSpace software",
-  "footer.link.dspace": "by DSpace software and marine-research.ru development team",
-
-  "footer.link.institution": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
-
-
-//! IBSS theme specific end
-
-
   "401.help": "You're not authorized to access this page. You can use the button below to get back to the home page.",
 
   "401.link.home-page": "Take me to the home page",
@@ -4660,7 +4619,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  title: "Repository",
+  "title": "Repository",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -5083,4 +5042,32 @@
   "admin.system-wide-alert.breadcrumbs": "System-wide Alerts",
 
   "admin.system-wide-alert.title": "System-wide Alerts",
+
+  //! IBSS theme specific
+  "affiliation.name": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
+
+  "home-news.affiliation.name": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
+
+  "news-page.ibss.header": "Welcome to the open repository:",
+  
+  "news-page.ibss.text": "IBSS open access repository is a digital service that collects, preserves, and freely distributes materials created within the Institute of Biology of the Southern Seas community. Repository contains documents, publications, theses, dissertations, maps, etc. authored or co-authored by IBSS researches, PhD students, and staff.",
+
+  "news-page.ibss.license": "All the materials are CC BY-NC-SA 4.0 licensed",
+
+  "browse.text": "Browse repository contents",
+
+  "footer.top.registered" : "Registered in:",
+
+  "footer.top.license" : "Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International license.",
+
+  "menu.section.browse_global": "Browse repository",
+
+  "repository.title.prefix": "IBSS repository :: ",
+
+  "footer.copyright": "© 2017–{{ year }}",
+
+  "footer.link.dspace": "by DSpace software and marine-research.ru development team",
+
+  "footer.link.institution": "A. O. Kovalevsky Institute of Biology of the Southern Seas of RAS",
+//! IBSS theme specific end
 }
