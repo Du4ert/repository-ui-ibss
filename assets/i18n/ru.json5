@@ -2315,7 +2315,7 @@
 
 "item.page.person.search.title": "Публикации автора",
 
-"item.page.related-items.view-more": "Показать {{ amount }} больше",
+"item.page.related-items.view-more": "Показать ещё {{ amount }}",
 
 "item.page.related-items.view-less": "Скрыть последнее {{ amount }}",
 
@@ -3811,7 +3811,7 @@
 
 "submission.general.cannot_submit": "У вас нет полномочий опубликовать новый материал.",
 
-"submission.general.deposit": "Отложить",
+"submission.general.deposit": "Разместить",
 
 "submission.general.discard.confirm.cancel": "Отменить",
 
@@ -4221,7 +4221,7 @@
 
 "submission.sections.general.deposit_error_notice": "Возникла ошибка при отправке материала. Повторите попытку позже.",
 
-"submission.sections.general.deposit_success_notice": "Отправка материала успешно завершена.",
+"submission.sections.general.deposit_success_notice": "Отправка материала успешно завершена .",
 
 "submission.sections.general.discard_error_notice": "Возникла ошибка при удалении материала. Повторите попытку позже.",
 
