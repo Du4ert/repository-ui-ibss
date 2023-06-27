@@ -1,4 +1,5 @@
 {
+
 "401.help": "Вы не авторизованы для просмотра этой страницы. Вы можете использовать кнопку ниже, чтобы вернуться на главную страницу.",
 
 "401.link.home-page": "Перейти на главную страницу",
@@ -737,6 +738,8 @@
 
 "browse.comcol.by.subject": "По теме",
 
+"browse.comcol.by.srsc": "По предметной категории",
+
 "browse.comcol.by.title": "По названию",
 
 "browse.comcol.head": "Поиск",
@@ -810,6 +813,10 @@
 "browse.startsWith.type_date.label": "Или введите дату (год-месяц) и нажмите кнопку Поиск",
 
 "browse.startsWith.type_text": "Введите первые буквы",
+
+"browse.startsWith.input": "Фильтр",
+
+"browse.taxonomy.button": "Поиск",
 
 "browse.title": "Поиск {{ collection }} по {{ field }} {{ value }}",
 
@@ -1512,6 +1519,8 @@
 "error.recent-submissions": "Была ошибка при получении новых Материалов ",
 
 "error.search-results": "Ошибка при обработке поискового запроса",
+
+"error.invalid-search-query": "Некорректный поисковый запрос. Попробуйте заключить запрос в кавычки. Перейдите по ссылке:  <a href=\"https://solr.apache.org/guide/query-syntax-and-parsing.html\" target=\"_blank\">Solr query syntax</a> для получения подробной информации об этой ошибке.",
 
 "error.sub-collections": "Ошибка при получении суб-коллекций",
 
