@@ -68,8 +68,11 @@ import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 // import {  CommunityPageSubCollectionListComponent} from '../../app/community-page/sub-collection-list/community-page-sub-collection-list.component';
 // import {  EditItemTemplatePageComponent } from '../../app/collection-page/edit-item-template-page/edit-item-template-page.component';
 
+import { BrowseBySwitcherComponent } from './app/browse-by/browse-by-switcher/browse-by-switcher.component';
+
 
 const DECLARATIONS = [
+  BrowseBySwitcherComponent
   // ComcolPageHandleComponent,
   // ComcolPageBrowseByComponent,
   // CommunityPageSubCommunityListComponent,

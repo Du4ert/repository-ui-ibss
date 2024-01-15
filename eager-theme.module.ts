@@ -18,6 +18,8 @@ import { EndUserAgreementComponent } from './app/info/end-user-agreement/end-use
 import { EndUserAgreementContentComponent } from './app/info/end-user-agreement/end-user-agreement-content/end-user-agreement-content.component';
 // import { CommunityPageComponent } from './app/community-page/community-page.component';
 // import { CollectionPageComponent } from './app/collection-page/collection-page.component';
+import { StartsWithTextComponent } from './app/shared/starts-with/text/starts-with-text.component';
+
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -36,6 +38,7 @@ const DECLARATIONS = [
   EndUserAgreementComponent,
   EndUserAgreementContentComponent,
   PrivacyContentComponent,
+  StartsWithTextComponent,
   // CommunityPageComponent,
   // CollectionPageComponent,
 ];
