@@ -68,16 +68,34 @@ import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 // import {  CommunityPageSubCollectionListComponent} from '../../app/community-page/sub-collection-list/community-page-sub-collection-list.component';
 // import {  EditItemTemplatePageComponent } from '../../app/collection-page/edit-item-template-page/edit-item-template-page.component';
 
+// Browse by Switcher customize
 import { BrowseBySwitcherComponent } from './app/browse-by/browse-by-switcher/browse-by-switcher.component';
+
+// Item Page customize
+import { DsoSharedModule } from '../../app/dso-shared/dso-shared.module';
+import { DsoPageModule } from '../../app/shared/dso-page/dso-page.module';
+import { ItemPageComponent } from './app/item-page/simple/item-page.component';
+import { MetadataRepresentationListComponent } from './app/item-page/simple/metadata-representation-list/metadata-representation-list.component';
+import { FileSectionComponent } from './app/item-page/simple/field-components/file-section/file-section.component';
+import { ItemPageTitleFieldComponent } from './app/item-page/simple/field-components/specific-field/title/item-page-title-field.component';
+
+
+
 
 
 const DECLARATIONS = [
-  BrowseBySwitcherComponent
+  BrowseBySwitcherComponent,
   // ComcolPageHandleComponent,
   // ComcolPageBrowseByComponent,
   // CommunityPageSubCommunityListComponent,
   // CommunityPageSubCollectionListComponent,
   // EditItemTemplatePageComponent,
+
+  // Item Page customize
+  ItemPageComponent,
+  MetadataRepresentationListComponent,
+  FileSectionComponent,
+  ItemPageTitleFieldComponent
 ];
 
 @NgModule({
@@ -133,6 +151,8 @@ const DECLARATIONS = [
     FormsModule,
     ResourcePoliciesModule,
     ComcolModule,
+    DsoPageModule,
+    DsoSharedModule,
   ],
   declarations: DECLARATIONS,
   exports: [

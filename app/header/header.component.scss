@@ -11,6 +11,7 @@
   @media screen and (max-width: map-get($grid-breakpoints, md)) {
     height: var(--ds-header-logo-height-xs);
   }
+  min-width: 50px;
 }
 .navbar-toggler .navbar-toggler-icon {
   background-image: none !important;
@@ -23,4 +24,8 @@
   &:hover, &:focus {
     color: var(--ds-header-icon-color-hover);
   }
+}
+
+.home-img {
+  min-width: 50px;
 }

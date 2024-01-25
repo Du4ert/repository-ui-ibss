@@ -21,6 +21,7 @@ $dark: #43515f !default;
 $prettyColor: #832330;
 
 $gray-800: #343a40 !default;
+$gray-700: #495057 !default;
 $gray-400: #ced4da !default;
 $gray-100: #f8f9fa !default;
 
@@ -34,3 +35,13 @@ $yiq-contrasted-threshold:  170 !default;
 $link-color: $cyan;
 $navbar-link-color: $link-color;
 
+$theme-colors: (
+        primary: $dark,
+        secondary: $gray-700,
+        success: $green,
+        info: $cyan,
+        warning: $yellow,
+        danger: $red,
+        light: $gray-100,
+        dark: $dark
+) !default;

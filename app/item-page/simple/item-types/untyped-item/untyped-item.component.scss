@@ -1,0 +1,26 @@
+@import '../../../../../styles/_theme_sass_variable_overrides';
+
+.author-alternative {
+    // border-top: 1px solid #ccc;
+    // color: $gray-700;
+}
+
+.simple-view-element {
+    margin: 0;
+}
+
+.title-alternative {
+    color: $gray-600;
+}
+
+.identifiers-list {
+    margin-bottom: 0;
+
+    ds-metadata-representation-list {
+        margin-bottom: 0;
+    }
+
+    ds-metadata-representation-loader {
+        margin-bottom: $form-group-margin-bottom;
+    }
+}

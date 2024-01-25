@@ -2248,7 +2248,7 @@
 
 "item.listelement.badge": "Материал",
 
-"item.page.description": "Abstract (description)",
+"item.page.description": "Аннотация (alternative)",
 
 "item.page.journal-issn": "Номер ISSN",
 
@@ -3356,6 +3356,8 @@
 "relationships.add.error.title": "Невозможно добавить связь",
 
 "relationships.isAuthorOf": "Авторы",
+
+"relationships.isAuthorOf.alternative": "Авторы (alternative)",
 
 "relationships.isAuthorOf.Person": "Авторы",
 
