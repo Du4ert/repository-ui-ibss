@@ -26,15 +26,6 @@
   }
 }
 
-header {
-  .navbar-navigation > li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-  }
-}
-
 //! IBSS specific
 .dso-logo img.img-fluid {
   max-width: 300px;
